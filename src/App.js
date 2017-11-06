@@ -4,10 +4,6 @@ import './App.css';
 
 
 class App extends Component {
-    componentDidMount () {
-        this.navigateTo('/about');
-    }
-
     navigateTo (route) {
         this.props.history.push(route);
     }
